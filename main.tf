@@ -32,7 +32,7 @@ resource "aws_instance" "unmanaged_0" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
+  
 
   key_name                             = "billgrant"
   monitoring                           = false
@@ -127,7 +127,7 @@ resource "aws_instance" "unmanaged_1" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
+  
   
   key_name                             = "billgrant"
   monitoring                           = false
@@ -222,7 +222,7 @@ resource "aws_instance" "unmanaged_2" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
+  
   
   key_name                             = "billgrant"
   monitoring                           = false
@@ -317,7 +317,7 @@ resource "aws_instance" "unmanaged_3" {
   hibernation                          = false
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
-  ipv6_address_count                   = 0
+  
 
   key_name                             = "billgrant"
   monitoring                           = false
