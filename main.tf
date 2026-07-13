@@ -33,7 +33,7 @@ resource "aws_instance" "unmanaged_0" {
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
   ipv6_address_count                   = 0
-  ipv6_addresses                       = []
+
   key_name                             = "billgrant"
   monitoring                           = false
   placement_partition_number           = 0
@@ -128,7 +128,7 @@ resource "aws_instance" "unmanaged_1" {
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
   ipv6_address_count                   = 0
-  ipv6_addresses                       = []
+  
   key_name                             = "billgrant"
   monitoring                           = false
   placement_partition_number           = 0
@@ -223,7 +223,7 @@ resource "aws_instance" "unmanaged_2" {
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
   ipv6_address_count                   = 0
-  ipv6_addresses                       = []
+  
   key_name                             = "billgrant"
   monitoring                           = false
   placement_partition_number           = 0
@@ -318,7 +318,7 @@ resource "aws_instance" "unmanaged_3" {
   instance_initiated_shutdown_behavior = "stop"
   instance_type                        = "t3.micro"
   ipv6_address_count                   = 0
-  ipv6_addresses                       = []
+
   key_name                             = "billgrant"
   monitoring                           = false
   placement_partition_number           = 0
