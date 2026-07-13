@@ -22,7 +22,7 @@ import {
 resource "aws_instance" "unmanaged_0" {
   provider                             = aws
   ami                                  = "ami-0cfff439c82529f01"
-  associate_public_ip_address          = true
+  
   availability_zone                    = "us-east-1a"
   disable_api_stop                     = false
   disable_api_termination              = false
@@ -117,7 +117,7 @@ import {
 resource "aws_instance" "unmanaged_1" {
   provider                             = aws
   ami                                  = "ami-0cfff439c82529f01"
-  associate_public_ip_address          = true
+  
   availability_zone                    = "us-east-1a"
   disable_api_stop                     = false
   disable_api_termination              = false
@@ -212,7 +212,7 @@ import {
 resource "aws_instance" "unmanaged_2" {
   provider                             = aws
   ami                                  = "ami-0cfff439c82529f01"
-  associate_public_ip_address          = true
+  
   availability_zone                    = "us-east-1a"
   disable_api_stop                     = false
   disable_api_termination              = false
@@ -307,7 +307,7 @@ import {
 resource "aws_instance" "unmanaged_3" {
   provider                             = aws
   ami                                  = "ami-0cfff439c82529f01"
-  associate_public_ip_address          = true
+  
   availability_zone                    = "us-east-1a"
   disable_api_stop                     = false
   disable_api_termination              = false
